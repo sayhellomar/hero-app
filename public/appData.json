@@ -1,0 +1,308 @@
+[
+  {
+    "image": "https://i.ibb.co.com/BH0hXwnc/taskflow.png",
+    "title": "TaskFlow Pro",
+    "companyName": "NexaSoft Inc.",
+    "id": 1,
+    "description": "TaskFlow Pro is a complete task management and productivity solution designed to help teams collaborate efficiently. It provides features like real-time sync, deadline tracking, file attachments, and automatic progress updates. The app integrates seamlessly with Google Workspace, Slack, and Microsoft Teams, making it ideal for modern workflows. With its intuitive drag-and-drop interface, users can prioritize work, monitor project timelines, and stay focused on their goals.",
+    "size": 120,
+    "reviews": 4570,
+    "ratingAvg": 4.6,
+    "downloads": 200000,
+    "ratings": [
+      { "name": "1 star", "count": 123 },
+      { "name": "2 star", "count": 204 },
+      { "name": "3 star", "count": 510 },
+      { "name": "4 star", "count": 1230 },
+      { "name": "5 star", "count": 2503 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Pvc6jF9Q/FitTrack.png",
+    "title": "FitTrack Daily",
+    "companyName": "WellGo Studios",
+    "id": 2,
+    "description": "FitTrack Daily helps you maintain your fitness goals with personalized workout plans and nutrition insights. The app tracks your calories, workouts, and water intake while syncing with smartwatches and fitness trackers. Users can join community challenges, follow expert trainers, and analyze their progress with advanced AI-driven recommendations. Whether you’re aiming to lose weight, gain muscle, or improve endurance, FitTrack Daily keeps you motivated every step of the way.",
+    "size": 85,
+    "reviews": 10230,
+    "ratingAvg": 4.8,
+    "downloads": 500000,
+    "ratings": [
+      { "name": "1 star", "count": 180 },
+      { "name": "2 star", "count": 245 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 2150 },
+      { "name": "5 star", "count": 6755 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/4w1Jqh0T/Photo-Master.jpg",
+    "title": "PhotoMaster Studio",
+    "companyName": "PixelCraft Labs",
+    "id": 3,
+    "description": "PhotoMaster Studio is a powerful photo editing app designed for both professionals and enthusiasts. It offers advanced features such as layer editing, background removal, AI color correction, and real-time filters. The app supports RAW image editing and exports to multiple formats without quality loss. With its user-friendly UI, tutorials, and preset packs, users can turn ordinary photos into stunning visuals within minutes.",
+    "size": 190,
+    "reviews": 8760,
+    "ratingAvg": 4.5,
+    "downloads": 400000,
+    "ratings": [
+      { "name": "1 star", "count": 260 },
+      { "name": "2 star", "count": 320 },
+      { "name": "3 star", "count": 980 },
+      { "name": "4 star", "count": 2600 },
+      { "name": "5 star", "count": 5200 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/m5gKv6SS/NoteSync.png",
+    "title": "NoteSync Cloud",
+    "companyName": "MindBox Systems",
+    "id": 4,
+    "description": "NoteSync Cloud allows you to capture thoughts, to-do lists, and project notes across all your devices. It provides a rich text editor, markdown support, and encrypted cloud storage. Notes can be organized with tags, colors, and nested folders for better structure. Collaboration tools let teams share and edit documents simultaneously. With offline access and automatic syncing, you never lose your ideas again.",
+    "size": 60,
+    "reviews": 5290,
+    "ratingAvg": 4.4,
+    "downloads": 180000,
+    "ratings": [
+      { "name": "1 star", "count": 220 },
+      { "name": "2 star", "count": 310 },
+      { "name": "3 star", "count": 950 },
+      { "name": "4 star", "count": 1850 },
+      { "name": "5 star", "count": 1960 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/yFmBxVtg/Travel-Mate.png",
+    "title": "TravelMate Explorer",
+    "companyName": "Skyward Labs",
+    "id": 5,
+    "description": "TravelMate Explorer is your personal digital travel companion. It helps you plan, book, and track your journeys with ease. The app features smart itinerary creation, real-time flight alerts, offline maps, and hotel recommendations tailored to your interests. You can explore hidden attractions, view local reviews, and even calculate trip budgets automatically. TravelMate brings together everything a traveler needs into one elegant, easy-to-use platform.",
+    "size": 140,
+    "reviews": 7200,
+    "ratingAvg": 4.7,
+    "downloads": 350000,
+    "ratings": [
+      { "name": "1 star", "count": 190 },
+      { "name": "2 star", "count": 270 },
+      { "name": "3 star", "count": 880 },
+      { "name": "4 star", "count": 1950 },
+      { "name": "5 star", "count": 3910 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/bjCyzmpj/EduLearn.png",
+    "title": "EduLearn Academy",
+    "companyName": "FuturePath Co.",
+    "id": 6,
+    "description": "EduLearn Academy offers high-quality online courses from top instructors worldwide. From web development to graphic design, users can access interactive lessons, quizzes, and certification programs. The platform tracks progress and suggests learning paths based on interests and goals. Offline learning, multilingual subtitles, and live mentorship make EduLearn one of the most inclusive e-learning experiences available today.",
+    "size": 110,
+    "reviews": 9400,
+    "ratingAvg": 4.6,
+    "downloads": 420000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 420 },
+      { "name": "3 star", "count": 1050 },
+      { "name": "4 star", "count": 2000 },
+      { "name": "5 star", "count": 5630 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/ns7GRp1b/ShopEase.png",
+    "title": "ShopEase Market",
+    "companyName": "DigitalBay Pvt. Ltd.",
+    "id": 7,
+    "description": "ShopEase Market is an online shopping platform offering thousands of products from verified sellers. With one-tap checkout, secure payments, and real-time delivery tracking, it redefines convenience. Personalized recommendations and exclusive discounts ensure you always get the best deals. The app also supports a reward point system that encourages smart shopping and loyal customers.",
+    "size": 160,
+    "reviews": 11500,
+    "ratingAvg": 4.3,
+    "downloads": 800000,
+    "ratings": [
+      { "name": "1 star", "count": 750 },
+      { "name": "2 star", "count": 890 },
+      { "name": "3 star", "count": 1600 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 5260 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/YTdFJ5wQ/CodeLab.png",
+    "title": "CodeLab IDE",
+    "companyName": "TechForge Devs",
+    "id": 8,
+    "description": "CodeLab IDE is a lightweight yet powerful code editor that supports multiple programming languages. It offers syntax highlighting, live preview, integrated Git, and real-time collaboration. The app runs smoothly even on low-end devices, allowing developers to code, debug, and deploy on the go. CodeLab is built for productivity and speed, making it the perfect companion for developers everywhere.",
+    "size": 180,
+    "reviews": 4700,
+    "ratingAvg": 4.5,
+    "downloads": 150000,
+    "ratings": [
+      { "name": "1 star", "count": 180 },
+      { "name": "2 star", "count": 210 },
+      { "name": "3 star", "count": 620 },
+      { "name": "4 star", "count": 1600 },
+      { "name": "5 star", "count": 2090 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/dwD2Tfmw/Mind-Relax.jpg",
+    "title": "MindRelax Meditation",
+    "companyName": "CalmSpace Studios",
+    "id": 9,
+    "description": "MindRelax Meditation offers a collection of soothing sounds, guided meditations, and breathing exercises designed to reduce stress and improve sleep quality. With AI-driven mood tracking, the app adjusts session recommendations based on your emotional state. Its serene visuals and calming voice guidance make it the perfect tool for mindfulness and relaxation in your busy life.",
+    "size": 95,
+    "reviews": 6800,
+    "ratingAvg": 4.8,
+    "downloads": 380000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 190 },
+      { "name": "3 star", "count": 540 },
+      { "name": "4 star", "count": 1600 },
+      { "name": "5 star", "count": 4370 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/VcZChYWw/Safe-Vault.png",
+    "title": "SafeVault Passwords",
+    "companyName": "SecureLogic",
+    "id": 10,
+    "description": "SafeVault Passwords securely stores your login credentials and sensitive data using industry-standard AES-256 encryption. The app generates strong passwords, auto-fills login forms, and syncs your vault across devices. With biometric authentication and offline access, your data stays protected even without an internet connection. SafeVault puts your digital safety first.",
+    "size": 70,
+    "reviews": 5200,
+    "ratingAvg": 4.9,
+    "downloads": 220000,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 460 },
+      { "name": "4 star", "count": 1500 },
+      { "name": "5 star", "count": 3040 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/4Z8whTgM/Music-Sphere.png",
+    "title": "MusicSphere",
+    "companyName": "HarmonyWorks",
+    "id": 11,
+    "description": "MusicSphere is a dynamic music streaming platform featuring millions of songs and podcasts from around the world. It offers offline listening, personalized playlists, and AI-based song discovery. Whether you’re studying, working out, or relaxing, MusicSphere curates the perfect soundtrack for every mood.",
+    "size": 210,
+    "reviews": 9800,
+    "ratingAvg": 4.6,
+    "downloads": 950000,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 720 },
+      { "name": "3 star", "count": 1800 },
+      { "name": "4 star", "count": 3200 },
+      { "name": "5 star", "count": 3480 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/6cyJH1P3/EcoTrack.png",
+    "title": "EcoTrack",
+    "companyName": "Greenify Apps",
+    "id": 12,
+    "description": "EcoTrack helps you reduce your carbon footprint by tracking your daily habits. It provides insights into your transportation, energy use, and consumption patterns. The app suggests eco-friendly alternatives and rewards sustainable choices with achievement badges. Together, we can build a greener future, one step at a time.",
+    "size": 80,
+    "reviews": 3600,
+    "ratingAvg": 4.5,
+    "downloads": 120000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 210 },
+      { "name": "3 star", "count": 520 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 1520 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/DfqZ91dH/Recipe-Craft.png",
+    "title": "RecipeCraft",
+    "companyName": "FoodieTech",
+    "id": 13,
+    "description": "RecipeCraft brings thousands of recipes from around the world to your kitchen. From traditional cuisines to modern fusions, it guides you step-by-step with ingredient measurements, preparation videos, and cooking timers. You can even create a digital cookbook of your favorite dishes and share them with others.",
+    "size": 130,
+    "reviews": 4100,
+    "ratingAvg": 4.7,
+    "downloads": 200000,
+    "ratings": [
+      { "name": "1 star", "count": 130 },
+      { "name": "2 star", "count": 180 },
+      { "name": "3 star", "count": 510 },
+      { "name": "4 star", "count": 1500 },
+      { "name": "5 star", "count": 2280 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/ZRmQ09gb/Weather-Cast.png",
+    "title": "WeatherCast Pro",
+    "companyName": "StormEdge Labs",
+    "id": 14,
+    "description": "WeatherCast Pro offers precise, real-time weather forecasts using satellite and radar data. It includes storm alerts, rainfall predictions, and an interactive map with global coverage. Users can customize widgets, receive severe weather notifications, and even check air quality indexes.",
+    "size": 100,
+    "reviews": 8900,
+    "ratingAvg": 4.4,
+    "downloads": 450000,
+    "ratings": [
+      { "name": "1 star", "count": 330 },
+      { "name": "2 star", "count": 410 },
+      { "name": "3 star", "count": 1020 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 4640 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/ZpwMmcSz/Finance-Plus.png",
+    "title": "FinancePlus Tracker",
+    "companyName": "SmartBudget Tech",
+    "id": 15,
+    "description": "FinancePlus Tracker is a personal finance management app that helps users track expenses, manage budgets, and achieve savings goals. It offers visual reports, auto-categorization, and AI-powered spending insights. You can connect multiple bank accounts and set alerts for bills or unusual spending.",
+    "size": 90,
+    "reviews": 7800,
+    "ratingAvg": 4.7,
+    "downloads": 390000,
+    "ratings": [
+      { "name": "1 star", "count": 210 },
+      { "name": "2 star", "count": 330 },
+      { "name": "3 star", "count": 810 },
+      { "name": "4 star", "count": 2300 },
+      { "name": "5 star", "count": 4150 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/9HdgZR0X/Game-Vault.jpg",
+    "title": "GameVault Arena",
+    "companyName": "PlayVerse",
+    "id": 16,
+    "description": "GameVault Arena gathers the most popular mobile and indie games into one hub. Players can compete in tournaments, track leaderboards, and earn achievements. The app features in-game chat, cloud save, and cross-device syncing for a seamless experience.",
+    "size": 250,
+    "reviews": 6200,
+    "ratingAvg": 4.2,
+    "downloads": 560000,
+    "ratings": [
+      { "name": "1 star", "count": 640 },
+      { "name": "2 star", "count": 780 },
+      { "name": "3 star", "count": 1210 },
+      { "name": "4 star", "count": 1600 },
+      { "name": "5 star", "count": 1970 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/gq0TSbK/DocuSign.png",
+    "title": "DocuSign Pro",
+    "companyName": "LegalSoft",
+    "id": 17,
+    "description": "DocuSign Pro simplifies document signing and contract management. Upload, sign, and share legal documents securely with digital verification. The app tracks signers and maintains a full audit trail, ensuring compliance and transparency for businesses and individuals alike.",
+    "size": 75,
+    "reviews": 5600,
+    "ratingAvg": 4.6,
+    "downloads": 310000,
+    "ratings": [
+      { "name": "1 star", "count": 210 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 680 },
+      { "name": "4 star", "count": 1900 },
+      { "name": "5 star", "count": 2510 }
+    ]
+  }
+]
