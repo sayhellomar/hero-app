@@ -1,0 +1,27 @@
+.navbar ul li {
+    padding: 0 16px;
+}
+
+.navbar ul li a {
+    background-color: transparent;
+    font-size: 16px;
+    color: rgba(0, 0, 0, .9);
+    font-weight: 500;
+    transition: none;
+    padding: 0;
+}
+
+.navbar ul li a.active {
+    background: linear-gradient(125.07deg, rgba(99, 46, 227, 1),rgba(159, 98, 242, 1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    
+    border: 2px solid;
+    border-image-slice: 1;
+    border-width: 2px;
+    border-image-source: linear-gradient(125.07deg, rgba(99, 46, 227, 1),rgba(159, 98, 242, 1) 100%);
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+}

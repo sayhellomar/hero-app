@@ -1,8 +1,14 @@
+import Banner from "../../components/Banner/Banner";
+import Counter from "../../components/Counter/Counter";
+import Trending from "../../components/Trending/Trending";
+
 const Home = () => {
     return (
-        <div>
-            I am home
-        </div>
+        <>
+            <Banner />
+            <Counter />
+            <Trending />
+        </>
     );
 };
 
