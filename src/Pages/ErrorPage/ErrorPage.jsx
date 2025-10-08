@@ -3,6 +3,7 @@ import errorImage from '../../assets/error-404.png';
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 import SectionHeading from "../../components/SectionHeading/SectionHeading";
+import { Link } from "react-router";
 
 const ErrorPage = () => {
     return (
@@ -13,9 +14,9 @@ const ErrorPage = () => {
                     <div className="error-inner">
                         <img className="mx-auto my-20" src={errorImage} alt="Error 404" />
                         <SectionHeading title="Oops, page not found!" description="The page you are looking for is not available." />
-                        <a className="bg-linear-to-br from-[#632EE3] to-[#9F62F2] py-3.5 px-10 text-base font-semibold text-white rounded-sm w-max block mx-auto mt-4">
+                        <Link to='/' className="bg-linear-to-br from-[#632EE3] to-[#9F62F2] py-3.5 px-10 text-base font-semibold text-white rounded-sm w-max block mx-auto mt-4">
                             Go Back!
-                        </a>
+                        </Link>
                     </div>
                 </Container>
             </section>

@@ -25,4 +25,5 @@ If you are developing a production application, we recommend using TypeScript wi
 04. daisyUI
 05. React Icons
 06. Recharts
+07. Axios
 ```
