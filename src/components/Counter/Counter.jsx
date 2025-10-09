@@ -6,7 +6,7 @@ const Counter = () => {
         <section className="counter-area py-20">
             <Container>
                 <div className="counter-inner text-center">
-                    <h2 className="font-bold text-5xl text-white">Trusted by Millions, Built for You</h2>
+                    <h2 className="font-bold text-4xl md:text-5xl text-white">Trusted by Millions, Built for You</h2>
                     <div className="flex flex-col md:flex-row gap-10 md:gap-0 items-center justify-evenly mt-10">
                         <div className="space-y-3">
                             <p className="text-[#FFFFFFe6] text-base">Total Downloads</p>

@@ -45,7 +45,7 @@ const Installation = () => {
                         <p className="text-[#001931] text-2xl font-semibold mb-2 md:mb-0">
                             ({installedApps.length}) App{installedApps.length > 1 ? 's' : ''} Found
                         </p>
-                        <select defaultValue="Sort By Downloads" className="select bg-[#f5f5f5] w-max">
+                        <select defaultValue="Sort By Downloads" className="select bg-[#f5f5f5] w-max mt-2 md:mt-0">
                             <option disabled={true}>Sort By Downloads</option>
                             <option onClick={() => handleSortby('high')}>High -&gt; Low</option>
                             <option onClick={() => handleSortby('low')}>Low -&gt; High</option>

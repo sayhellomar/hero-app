@@ -5,7 +5,7 @@ import iconStar from '../../assets/icon-ratings.png';
 const AppCardFull = ({app, handleUninstall}) => {
     const {id, title, image, downloads, ratingAvg, size} = app;
     return (
-        <div className="flex items-center justify-between p-4 bg-white rounded-sm mt-4">
+        <div className="flex flex-col md:flex-row items-start md:items-center gap-2 md:gap-0 justify-between p-4 bg-white rounded-sm mt-4">
             <div className="flex items-center gap-4">
                 <Link to={`/app/${id}`}>
                     <img className="w-20 h-20 object-cover rounded-lg" src={image} alt={title} />
@@ -27,7 +27,7 @@ const AppCardFull = ({app, handleUninstall}) => {
                     </div>
                 </div>
             </div>
-            <button onClick={() => handleUninstall(app)} className="cursor-pointer bg-[#00D390] text-white rounded-sm text-base font-semibold py-3 px-4">
+            <button onClick={() => handleUninstall(app)} className="cursor-pointer bg-[#00D390] text-white rounded-sm text-base font-semibold py-3 px-4 self-end md:self-center">
                 Uninstall
             </button>
         </div>
