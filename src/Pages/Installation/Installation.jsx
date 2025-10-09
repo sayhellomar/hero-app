@@ -2,8 +2,9 @@ import Container from "../../components/Container/Container";
 import SectionHeading from "../../components/SectionHeading/SectionHeading";
 import AppCardFull from "../../components/AppCardFull/AppCardFull";
 import { useEffect, useState } from "react";
-import { getFromLS } from "../../Utilities/localStorage";
+import { getFromLS, removeFromLS } from "../../Utilities/localStorage";
 import useLoadapps from "../../Hooks/useLoadapps";
+import { toast, ToastContainer } from "react-toastify";
 
 const Installation = () => {
     const {apps} = useLoadapps();
@@ -16,6 +17,25 @@ const Installation = () => {
         setInstalledApps(existingApps);
     }, [apps])
 
+    const handleUninstall = app => {
+        removeFromLS(app.id);
+        const remainingApps = installedApps.filter(installedApp => installedApp.id !== app.id);
+        setInstalledApps(remainingApps);
+        toast('App removed successfully');
+    }
+
+    const handleSortby = type => {
+        if(type === 'high') {
+            const appSortByHigh = [...installedApps].sort((a, b) => b.downloads - a.downloads);
+            setInstalledApps(appSortByHigh);
+        }
+
+        if(type === 'low') {
+            const appSortByLow = [...installedApps].sort((a, b) => a.downloads - b.downloads);
+            setInstalledApps(appSortByLow);
+        }
+    }
+
     return (
         <div className="apps-area py-10 md:py-20 bg-[#f5f5f5]">
             <Container>
@@ -25,19 +45,27 @@ const Installation = () => {
                         <p className="text-[#001931] text-2xl font-semibold mb-2 md:mb-0">
                             ({installedApps.length}) App{installedApps.length > 1 ? 's' : ''} Found
                         </p>
-                        <select defaultValue="Sort By Size" className="select bg-[#f5f5f5] w-max">
-                            <option disabled={true}>Sort By Size</option>
-                            <option>High -&gt; Low</option>
-                            <option>Low -&gt; High</option>
+                        <select defaultValue="Sort By Downloads" className="select bg-[#f5f5f5] w-max">
+                            <option disabled={true}>Sort By Downloads</option>
+                            <option onClick={() => handleSortby('high')}>High -&gt; Low</option>
+                            <option onClick={() => handleSortby('low')}>Low -&gt; High</option>
                         </select>
                     </div>
                     <div>
                         {
-                            installedApps.map(installedApp => <AppCardFull key={installedApp.id} app={installedApp} />)
+                            installedApps.length > 0
+                            ?
+                            installedApps.map(installedApp => <AppCardFull 
+                                key={`installed${installedApp.id}`} 
+                                app={installedApp} 
+                                handleUninstall={handleUninstall} />)
+                            :
+                            <p className="text-2xl font-semibold text-[#001931] py-10 text-center">No installed app found</p>
                         }
                     </div>
                 </div>
             </Container>
+            <ToastContainer />
         </div>
     );
 };

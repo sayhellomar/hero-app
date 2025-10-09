@@ -9,7 +9,7 @@ const AppsDetailsTop = ({topDetails}) => {
 
     return (
         <div className="apps-top flex flex-col md:flex-row gap-6 lg:gap-10 items-center">
-            <img className="max-w-[350px] max-h-[350px] rounded-sm" src={image} alt={title} />
+            <img className="w-[350px] h-[350px] rounded-sm object-cover" src={image} alt={title} />
             <div className="flex-1">
                 <h3 className="text-[32px] text-[#001931] font-bold">{title}</h3>
                 <p className="text-[#627382] text-xl mt-2">Developed by <span className="hero-gradient-text font-semibold">{companyName}</span></p>

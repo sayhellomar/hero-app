@@ -1,20 +1,15 @@
-# React + Vite
+# App Name: Hero App Store
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+```
+Hero app store is a collection of apps where you will find the latest, trending or popular apps. Browse hero app store and find your desired apps. 
 
-Currently, two official plugins are available:
+From the Apps page, you can find all the available apps and you can search apps by title name.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To view details about the app, click on the app. From app details page, you can read all the information about the app like app downloads, ratings, total reviews and who developed the app. Also, you will find a Install Now button to install the app.
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-
+Luckily, If you installed an app by mistake, you can navigate to Installation page to unisntall the app.
+```
 
 ## Technologies
 
